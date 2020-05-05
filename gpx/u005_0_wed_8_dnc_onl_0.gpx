@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><gpx creator="Lockito" version="3000011">
+  <metadata>
+    <name><![CDATA[u005_0_wed_8_dnc_onl_0]]></name>
+    <desc><![CDATA[speed=8.0,accuracyBase=5.0,accuracyDelta=3.0,playCounter=0,creationDate=2020-04-28T15:12:28.095,updateDate=null]]></desc>
+  </metadata>
+  <wpt lat="41.697655836874254" lon="-86.23520448803902">
+    <ele>0</ele>
+    <name><![CDATA[Waypoint 0]]></name>
+    <cmt><![CDATA[Waypoint 0]]></cmt>
+    <desc><![CDATA[Waypoint 0]]></desc>
+  </wpt>
+  <wpt lat="41.69695037746963" lon="-86.23441457748412">
+    <ele>0</ele>
+    <name><![CDATA[Waypoint 1]]></name>
+    <cmt><![CDATA[Waypoint 1]]></cmt>
+    <desc><![CDATA[Waypoint 1]]></desc>
+  </wpt>
+  <trk>
+    <name><![CDATA[u005_0_wed_8_dnc_onl_0]]></name>
+    <desc><![CDATA[u005_0_wed_8_dnc_onl_0]]></desc>
+    <number>1</number>
+    <trkseg>
+      <trkpt lat="41.69754" lon="-86.23523">
+        <ele>0</ele>
+        <name><![CDATA[Point 0]]></name>
+      </trkpt>
+      <trkpt lat="41.69751" lon="-86.23513">
+        <ele>0</ele>
+        <name><![CDATA[Point 1]]></name>
+      </trkpt>
+      <trkpt lat="41.69746" lon="-86.23504">
+        <ele>0</ele>
+        <name><![CDATA[Point 2]]></name>
+      </trkpt>
+      <trkpt lat="41.69736" lon="-86.23492">
+        <ele>0</ele>
+        <name><![CDATA[Point 3]]></name>
+      </trkpt>
+      <trkpt lat="41.69728" lon="-86.23486">
+        <ele>0</ele>
+        <name><![CDATA[Point 4]]></name>
+      </trkpt>
+      <trkpt lat="41.69714" lon="-86.2348">
+        <ele>0</ele>
+        <name><![CDATA[Point 5]]></name>
+      </trkpt>
+      <trkpt lat="41.69701" lon="-86.23478">
+        <ele>0</ele>
+        <name><![CDATA[Point 6]]></name>
+      </trkpt>
+      <trkpt lat="41.697" lon="-86.23474">
+        <ele>0</ele>
+        <name><![CDATA[Point 7]]></name>
+      </trkpt>
+      <trkpt lat="41.69691" lon="-86.23442">
+        <ele>0</ele>
+        <name><![CDATA[Point 8]]></name>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

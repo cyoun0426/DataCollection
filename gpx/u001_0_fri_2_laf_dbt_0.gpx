@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><gpx creator="Lockito" version="3000011">
+  <metadata>
+    <name><![CDATA[u001_0_fri_2_laf_dbt_0]]></name>
+    <desc><![CDATA[speed=9.0,accuracyBase=5.0,accuracyDelta=3.0,playCounter=1,creationDate=2020-04-27T22:38:27.599,updateDate=null]]></desc>
+  </metadata>
+  <wpt lat="41.701829104312836" lon="-86.23723693192005">
+    <ele>0</ele>
+    <name><![CDATA[Waypoint 0]]></name>
+    <cmt><![CDATA[Waypoint 0]]></cmt>
+    <desc><![CDATA[Waypoint 0]]></desc>
+  </wpt>
+  <wpt lat="41.698928798512256" lon="-86.23644668608904">
+    <ele>0</ele>
+    <name><![CDATA[Waypoint 1]]></name>
+    <cmt><![CDATA[Waypoint 1]]></cmt>
+    <desc><![CDATA[Waypoint 1]]></desc>
+  </wpt>
+  <trk>
+    <name><![CDATA[u001_0_fri_2_laf_dbt_0]]></name>
+    <desc><![CDATA[u001_0_fri_2_laf_dbt_0]]></desc>
+    <number>1</number>
+    <trkseg>
+      <trkpt lat="41.70184" lon="-86.23727">
+        <ele>0</ele>
+        <name><![CDATA[Point 0]]></name>
+      </trkpt>
+      <trkpt lat="41.7017" lon="-86.23738">
+        <ele>0</ele>
+        <name><![CDATA[Point 1]]></name>
+      </trkpt>
+      <trkpt lat="41.70172" lon="-86.23714">
+        <ele>0</ele>
+        <name><![CDATA[Point 2]]></name>
+      </trkpt>
+      <trkpt lat="41.70048" lon="-86.23706">
+        <ele>0</ele>
+        <name><![CDATA[Point 3]]></name>
+      </trkpt>
+      <trkpt lat="41.7" lon="-86.23659">
+        <ele>0</ele>
+        <name><![CDATA[Point 4]]></name>
+      </trkpt>
+      <trkpt lat="41.69934" lon="-86.23653">
+        <ele>0</ele>
+        <name><![CDATA[Point 5]]></name>
+      </trkpt>
+      <trkpt lat="41.69892" lon="-86.23652">
+        <ele>0</ele>
+        <name><![CDATA[Point 6]]></name>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

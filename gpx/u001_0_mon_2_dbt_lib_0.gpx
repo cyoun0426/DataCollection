@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><gpx creator="Lockito" version="3000011">
+  <metadata>
+    <name><![CDATA[u001_0_mon_2_dbt_lib_0]]></name>
+    <desc><![CDATA[speed=12.0,accuracyBase=5.0,accuracyDelta=3.0,playCounter=1,creationDate=2020-04-27T13:28:20.677,updateDate=null]]></desc>
+  </metadata>
+  <wpt lat="41.69898812767319" lon="-86.23629849404095">
+    <ele>0</ele>
+    <name><![CDATA[Waypoint 0]]></name>
+    <cmt><![CDATA[Waypoint 0]]></cmt>
+    <desc><![CDATA[Waypoint 0]]></desc>
+  </wpt>
+  <wpt lat="41.699924619962324" lon="-86.23390763998032">
+    <ele>0</ele>
+    <name><![CDATA[Waypoint 1]]></name>
+    <cmt><![CDATA[Waypoint 1]]></cmt>
+    <desc><![CDATA[Waypoint 1]]></desc>
+  </wpt>
+  <wpt lat="41.70177503455718" lon="-86.23389188200235">
+    <ele>0</ele>
+    <name><![CDATA[Waypoint 2]]></name>
+    <cmt><![CDATA[Waypoint 2]]></cmt>
+    <desc><![CDATA[Waypoint 2]]></desc>
+  </wpt>
+  <wpt lat="41.70214751417395" lon="-86.2341108173132">
+    <ele>0</ele>
+    <name><![CDATA[Waypoint 3]]></name>
+    <cmt><![CDATA[Waypoint 3]]></cmt>
+    <desc><![CDATA[Waypoint 3]]></desc>
+  </wpt>
+  <trk>
+    <name><![CDATA[u001_0_mon_2_dbt_lib_0]]></name>
+    <desc><![CDATA[u001_0_mon_2_dbt_lib_0]]></desc>
+    <number>1</number>
+    <trkseg>
+      <trkpt lat="41.69901" lon="-86.2363">
+        <ele>0</ele>
+        <name><![CDATA[Point 0]]></name>
+      </trkpt>
+      <trkpt lat="41.69902" lon="-86.23609">
+        <ele>0</ele>
+        <name><![CDATA[Point 1]]></name>
+      </trkpt>
+      <trkpt lat="41.69903" lon="-86.23573">
+        <ele>0</ele>
+        <name><![CDATA[Point 2]]></name>
+      </trkpt>
+      <trkpt lat="41.69903" lon="-86.23562">
+        <ele>0</ele>
+        <name><![CDATA[Point 3]]></name>
+      </trkpt>
+      <trkpt lat="41.69906" lon="-86.23559">
+        <ele>0</ele>
+        <name><![CDATA[Point 4]]></name>
+      </trkpt>
+      <trkpt lat="41.69914" lon="-86.23561">
+        <ele>0</ele>
+        <name><![CDATA[Point 5]]></name>
+      </trkpt>
+      <trkpt lat="41.69918" lon="-86.23562">
+        <ele>0</ele>
+        <name><![CDATA[Point 6]]></name>
+      </trkpt>
+      <trkpt lat="41.69939" lon="-86.23531">
+        <ele>0</ele>
+        <name><![CDATA[Point 7]]></name>
+      </trkpt>
+      <trkpt lat="41.69943" lon="-86.23521">
+        <ele>0</ele>
+        <name><![CDATA[Point 8]]></name>
+      </trkpt>
+      <trkpt lat="41.69951" lon="-86.23503">
+        <ele>0</ele>
+        <name><![CDATA[Point 9]]></name>
+      </trkpt>
+      <trkpt lat="41.69954" lon="-86.23498">
+        <ele>0</ele>
+        <name><![CDATA[Point 10]]></name>
+      </trkpt>
+      <trkpt lat="41.69963" lon="-86.2348">
+        <ele>0</ele>
+        <name><![CDATA[Point 11]]></name>
+      </trkpt>
+      <trkpt lat="41.69973" lon="-86.23471">
+        <ele>0</ele>
+        <name><![CDATA[Point 12]]></name>
+      </trkpt>
+      <trkpt lat="41.69991" lon="-86.23438">
+        <ele>0</ele>
+        <name><![CDATA[Point 13]]></name>
+      </trkpt>
+      <trkpt lat="41.69994" lon="-86.23413">
+        <ele>0</ele>
+        <name><![CDATA[Point 14]]></name>
+      </trkpt>
+      <trkpt lat="41.69995" lon="-86.23391">
+        <ele>0</ele>
+        <name><![CDATA[Point 15]]></name>
+      </trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="41.69995" lon="-86.23391">
+        <ele>0</ele>
+        <name><![CDATA[Point 0]]></name>
+      </trkpt>
+      <trkpt lat="41.69995" lon="-86.23381">
+        <ele>0</ele>
+        <name><![CDATA[Point 1]]></name>
+      </trkpt>
+      <trkpt lat="41.70177" lon="-86.23393">
+        <ele>0</ele>
+        <name><![CDATA[Point 2]]></name>
+      </trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="41.70177" lon="-86.23393">
+        <ele>0</ele>
+        <name><![CDATA[Point 0]]></name>
+      </trkpt>
+      <trkpt lat="41.70195" lon="-86.23394">
+        <ele>0</ele>
+        <name><![CDATA[Point 1]]></name>
+      </trkpt>
+      <trkpt lat="41.70196" lon="-86.23395">
+        <ele>0</ele>
+        <name><![CDATA[Point 2]]></name>
+      </trkpt>
+      <trkpt lat="41.70196" lon="-86.23395">
+        <ele>0</ele>
+        <name><![CDATA[Point 3]]></name>
+      </trkpt>
+      <trkpt lat="41.70195" lon="-86.23412">
+        <ele>0</ele>
+        <name><![CDATA[Point 4]]></name>
+      </trkpt>
+      <trkpt lat="41.70195" lon="-86.23412">
+        <ele>0</ele>
+        <name><![CDATA[Point 5]]></name>
+      </trkpt>
+      <trkpt lat="41.70215" lon="-86.23413">
+        <ele>0</ele>
+        <name><![CDATA[Point 6]]></name>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
