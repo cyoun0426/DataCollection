@@ -1,35 +1,29 @@
 #!/usr/bin/env python3
 
+import sys
 import os
 import datetime
 from dateutil.relativedelta import relativedelta
 
 PATH_GPX = "./gpx/"
-PATH_PLT = "./plt/"
+PATH_PLT = "./plt_manual/"
 
-def parse(filename):
+def parse(input):
+    filename, date, time = input.split(' ')
 
     FIRST_LINES = "Geolife trajectory\nWGS 84\nAltitude is in Feet\nReserved 3\n0,2,255,My Track,0,0,2,8421376\n0"      # I kept the first 6 lines the same
-    DT = datetime.datetime(2020, 3, 16, 12, 0, 0)           # An arbitrary start date for the trips
+    year = int(date.split('/')[0])
+    month = int(date.split('/')[1])
+    day = int(date.split('/')[2])
+    hour = int(time.split(':')[0]) + 4
+    if hour > 23:
+        hour -= 24
+        day += 1
+    min = int(time.split(':')[1])
+    DT = datetime.datetime(year, month, day, hour, min, 0)
     
-    name = filename.split('.')[0]                           # get rid of .gpx extension
-    
-    # set date and time
+    name = filename.split('.')[0]                                       # get rid of .gpx extension
     user = name.split('_')[0]
-    week = name.split('_')[1]
-    day = name.split('_')[2]
-    tripid = name.split('_')[3]
-    offset = 0
-    if day == 'tue':
-        offset = 1
-    elif day == 'wed':
-        offset = 2
-    elif day == 'thu':
-        offset = 3
-    elif day == 'fri':
-        offset = 4
-    DT += datetime.timedelta(days = int(week)*7+offset)
-    DT += datetime.timedelta(hours = int(tripid))
     
     # open file to write
     if not os.path.exists(PATH_PLT + user + '/'):
@@ -51,8 +45,10 @@ def parse(filename):
 
     
 if __name__ == "__main__":
-    if not os.path.exists(PATH_PLT + user + '/'):
-        os.mkdir(PATH_PLT + user + '/')
-    
-    for filename in os.listdir(PATH_GPX):
-        parse(filename)
+    print("Please enter: [filename.gpx] [year]/[month]/[day] [hour (24-format)]:[minute]")
+
+    if not os.path.exists(PATH_PLT):
+        os.mkdir(PATH_PLT)
+
+    for line in sys.stdin:    
+        parse(line.strip())
