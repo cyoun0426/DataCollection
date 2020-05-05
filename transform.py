@@ -15,6 +15,7 @@ def parse(filename):
     name = filename.split('.')[0]                           # get rid of .gpx extension
     
     # set date and time
+    user = name.split('_')[0]
     week = name.split('_')[1]
     day = name.split('_')[2]
     tripid = name.split('_')[3]
@@ -30,7 +31,10 @@ def parse(filename):
     DT += datetime.timedelta(days = int(week)*7+offset)
     DT += datetime.timedelta(hours = int(tripid))
     
-    file_w = open(PATH_PLT + name + ".plt", "w")                        # open file to write
+    # open file to write
+    if not os.path.exists(PATH_PLT + user + '/'):
+        os.mkdir(PATH_PLT + user + '/')
+    file_w = open(PATH_PLT + user + '/' + name + ".plt", "w")
     file_w.write(FIRST_LINES)                                           # append first 6 lines
 
     with open(PATH_GPX + filename) as info:                             # open file to read
